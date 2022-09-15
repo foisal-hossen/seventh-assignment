@@ -17,12 +17,13 @@ body {
 }
 .navbar{
   display: flex;
-  
+  justify-content: center;
 }
 .blog-post{
-  color: white;
+color: white;
 text-decoration: none;
 font-size: 2rem;
+margin-left: 50rem;
 padding: 9px 25px;
 /* height:50px;
 width: 300px; */
@@ -114,6 +115,7 @@ cursor: pointer;
   text-align: center;
   color: white;
   margin: 20px 0;
+  
 }
 
 .divider-container {
