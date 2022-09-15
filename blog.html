@@ -33,7 +33,7 @@
         QUESTION 01: Differences of Local storage vs Session storage?
       </div>
       <div class="collapse-content bg-primary text-primary-content peer-checked:bg-red-500 peer-checked:text-secondary-content"> 
-        <p></p>
+        <p>The main difference between this two is the session storage store data in a browser for a session and local storage saves data in browser without any expiration date. Both of them saves data in the key and value pair in the browser but data is deleted when the browser is closed in session storage but data remains in local storage. That means data from session storage is not available for future session but data from local storage can be used, even if we restart the device.</p>
       </div>
     </div>
 
@@ -43,7 +43,7 @@
         QUESTION 02: How does JS event loop works?
       </div>
       <div class="collapse-content bg-primary text-primary-content peer-checked:bg-red-500 peer-checked:text-secondary-content"> 
-        <p></p>
+        <p>JavaScript is a single threaded programming language but it can work like asynchronous,that's where the concept of event loop appears.Event loop process waits for the call stack to cleared before it pushes callback function from the Task Queue to the Call stack. If the stack is cleared,the event loop triggers and check tasks. If any tasks exists it pushes it to the call stack,waiting for the call stack to be cleared again and continues the same process.</p>
       </div>
     </div>
 
@@ -53,7 +53,7 @@
         QUESTION 03: Global Scope vs Block Scope?
       </div>
       <div class="collapse-content bg-primary text-primary-content peer-checked:bg-red-500 peer-checked:text-secondary-content"> 
-        <p></p>
+        <p>Javascript scopes are two types. Global scope and Local scope and Local scope are also two typed,the are Block scope and Function scope. Global scopes are accessible everywhere but there's restrictions in Local scope, their accessibility is limited. Block scope is only accessible between two curly brackets.</p>
       </div>
     </div>
 
@@ -63,7 +63,15 @@
         QUESTION 04: Different ways to get undefined?
       </div>
       <div class="collapse-content bg-primary text-primary-content peer-checked:bg-red-500 peer-checked:text-secondary-content"> 
-        <p></p>
+        <p>
+          <ul class="list-decimal list-inside">
+            <li>function with no return will give undefined</li>
+            <li>variable that is not initialized will give undefined</li>
+            <li>If return has nothing on the right side will return undefined</li>
+            <li>property that does not exists of a object will return undefined</li>
+            <li>set a value directly to undefined</li>
+          </ul>
+        </p>
       </div>
     </div>   
   </main>
